@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+  <title>To Do List Inbraep</title>
+</head>
+<body>
+    <div class="wrapper">
+      <div class="task-input">
+        <i class="fa-solid fa-list"></i>
+        <input type="text" placeholder="Adicione nova tarefa">
+      </div>
+
+      <div class="controls">
+        <div class="filters">
+          <span id="all" class="active">Todos</span>
+          <span id="pending">Pendente</span>
+          <span id="completed">Completo</span>
+        </div>
+        <button class="clear-btn">Limpar todos</button>
+      </div>
+        <ul class="task-box"></ul>
+          </div>
+    <script src="script.js"></script>
+</body>
+</html>
