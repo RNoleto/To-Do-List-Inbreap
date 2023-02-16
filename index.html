@@ -14,17 +14,20 @@
   <title>Desafio To Do List</title>
 </head>
 <body>
-  <div class="wrapper" action="formulario.php" method="POST">
+  <header class="header">
+    <h1>Lista de tarefas</h1>
+  </header>
+  <div class="wrapper">
       <div class="task-input">
         <i class="fa-solid fa-list"></i>
-        <input name="task" type="text" placeholder="Adicione nova tarefa">
+        <input type="text" placeholder="Adicione nova tarefa">
       </div>
 
       <div class="controls">
         <div class="filters">
-          <span id="all" name="all" class="active">Todos</span>
-          <span id="pending" name="pending">Pendente</span>
-          <span id="completed" name="completed">Completo</span>
+          <span id="all" class="active">Todos</span>
+          <span id="pending">Pendente</span>
+          <span id="completed">Completo</span>
         </div>
         <button class="clear-btn">Limpar todos</button>
       </div>
