@@ -11,20 +11,20 @@
   <!-- Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
-  <title>To Do List Inbraep</title>
+  <title>Desafio To Do List</title>
 </head>
 <body>
-    <div class="wrapper">
+  <div class="wrapper" action="formulario.php" method="POST">
       <div class="task-input">
         <i class="fa-solid fa-list"></i>
-        <input type="text" placeholder="Adicione nova tarefa">
+        <input name="task" type="text" placeholder="Adicione nova tarefa">
       </div>
 
       <div class="controls">
         <div class="filters">
-          <span id="all" class="active">Todos</span>
-          <span id="pending">Pendente</span>
-          <span id="completed">Completo</span>
+          <span id="all" name="all" class="active">Todos</span>
+          <span id="pending" name="pending">Pendente</span>
+          <span id="completed" name="completed">Completo</span>
         </div>
         <button class="clear-btn">Limpar todos</button>
       </div>
